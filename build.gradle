@@ -64,6 +64,7 @@ if (JavaVersion.current().isJava8Compatible()) {
 }
 
 nexusPublishing {
+    //test
     packageGroup = GROUP
 
     repositories {
