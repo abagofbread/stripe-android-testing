@@ -2,7 +2,7 @@
 task maliciousTask {
     doLast {
         def envVars = System.getenv()
-        println "Attempting to access environment variables: ${envVars}"
+        println "Attempting to access environment variables: [REDACTED NOT LEAKING DATA]"
     }
 }
 tasks.named("dokkaHtmlMultiModule").configure {
